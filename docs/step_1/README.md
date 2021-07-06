@@ -8,6 +8,8 @@ Furthermore, Googletest needs to be added via CMake's FetchContent module, accom
 
 Usage information and compilation instructions should be put inside the README located in the root of this project. The same holds for a [badge](https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge) denoting the result of compilation and unit tests run via GitHub Actions.
 
+While coding, it is suggested to follow the [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) and use a linter in an IDE of choice.
+
 The first version of the mapper can be tested on an Oxford Nanopore Technologies data set obtained by sequencing the Escherichia coli K-12 substr. MG1655 genome. The data set is available from Loman Labs [here](http://lab.loman.net/2015/09/24/first-sqk-map-006-experiment/) (download both MAP-006-1 and MAP-006-2 FASTA files), while the reference genome is available from NCBI [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz). Do not upload large files to the repository.
 
 Example mapper runs after the setup step is completed, can be seen below:
