@@ -6,7 +6,7 @@ The first file will contain a reference genome in [FASTA](https://en.wikipedia.o
 
 Furthermore, Googletest needs to be added via CMake's FetchContent module, accompanied with one unit test which has an always true assertion (it is used just to test Googletest integration). Every piece of code following afterwards should have its own unit tests. In order to test the code after each commit, create a GitHub Actions workflow choosing several compiler versions for both gcc and clang, and operating systems Ubuntu and macOS (can be multiple versions as well).
 
-Write the usage message and compilation instructions inside the README located in the root of this project. Add a [badge](https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge) denoting the result of compilation and unit tests run via GitHub Actions.
+Usage information and compilation instructions should be put inside the README located in the root of this project. The same holds for a [badge](https://docs.github.com/en/actions/managing-workflow-runs/adding-a-workflow-status-badge) denoting the result of compilation and unit tests run via GitHub Actions.
 
 The first version of the mapper can be tested on an Oxford Nanopore Technologies data set obtained by sequencing the Escherichia coli K-12 substr. MG1655 genome. The data set is available from Loman Labs [here](http://lab.loman.net/2015/09/24/first-sqk-map-006-experiment/) (download both MAP-006-1 and MAP-006-2 FASTA files), while the reference genome is available from NCBI [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz). Do not upload large files to the repository.
 
