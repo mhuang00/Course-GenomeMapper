@@ -18,7 +18,7 @@ Participants need to create a GitHub account, fork this repository, and get thro
 
 Once the repository copy is established, the next step is to create a simple program which has command line options, is compiled with CMake, integrates (or implement) a file parser for sequencing data, has support for unit tests, and uses continuous integration through GitHub Actions.
 
-### Step 2 - Alignment library
+### Step 2 - [Alignment library](step_2/README.md)
 
 The first bigger task is to implement a pairwise sequence alignment library, with support for different alignment algorithms and gap models, including appropriate unit tests.
 
