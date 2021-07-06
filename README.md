@@ -10,7 +10,7 @@ The main goal of this course is for participants to individually code the whole 
 
 ## Outline
 
-### Step 0 - Preliminaries
+### Step 0 - [Preliminaries](docs/step_0/README.md)
 
 Participants need to create a GitHub account, fork this repository, and get through several provided tutorials before going forward.
 
