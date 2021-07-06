@@ -22,7 +22,7 @@ Once the repository copy is established, the next step is to create a simple pro
 
 The first bigger task is to implement a pairwise sequence alignment library, with support for different alignment algorithms and gap models, including appropriate unit tests.
 
-### Step 3 - Minimizer library
+### Step 3 - [Minimizer library](step_3/README.md)
 
 Participants will also need to implement a library that finds overlaps between sequences based on substring matching, in which the sequence sketch consist of minimizers. For a given set of sequences, it will sample their minimizers, create a lookup table, provide a querying procedure with frequency filtering, and chain the found minimizer matches into overlaps.
 

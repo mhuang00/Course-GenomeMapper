@@ -6,7 +6,7 @@ Sequence alignment is a series of transformations which describes how to obtain 
 
 There are different versions of pairwise alignment algorithms, the Needleman-Wunsch algorithm for global alignment, the Smith-Waterman algorithm for local alignment and semi-global algorithms used for suffix-prefix and prefix-suffix alignments. The main differences between them are in the initialization step and the place from which the backtrack procedure can start.
 
-Participants have to create a library which implements all three alignment algorithms. The library should be named in form of `<color>_alignment` and should have its own namespace called after the color. The library has to be created with the same CMake file as the mapper, and eventually be linked to it. The implementation has no requirements (it can be just one function or through a class) but the alignment function should follow the below prototype:
+Participants have to create a library which implements all three alignment algorithms. The library should be named in form of `<color>_alignment_engine` and should have its own namespace called after the color. The library has to be created with the same CMake file as the mapper, and eventually be linked to it. The implementation has no requirements (it can be just one function or through a class) but the alignment function should follow the below prototype:
 
 ```cpp
 int Align(  // or <class name>::Align
