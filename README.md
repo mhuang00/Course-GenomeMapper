@@ -1,7 +1,7 @@
 # Mapping third-generation sequencing data to a reference genome
 
 <p align="middle">
-  <img src="logo/lbcb.png" width="400" />
+  <img src="docs/logo/lbcb.png" width="400" />
 </p>
 
 New advances in genome sequencing technologies have increased the usability of obtained fragments due to the manifold increase of their length. The only drawback is the decreased accuracy, but the continuous improvements will eventually reach error levels that are negligible. Finding the origin and per nucleotide relationship of a sequenced read and a reference genome has various vital use cases in bioinformatics, and is usually based on heuristic short substring matching followed by exact alignment via dynamic programming. The combination of increased length and error rate led to development of new algorithms, one of which will be presented and implemented during this course.
