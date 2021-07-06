@@ -1,6 +1,10 @@
 # Preliminaries
 
-Participants should first create a [GitHub](https://github.com/signup) account. As usage of password on CLI is deprecated, they will also need to create a SSH key and add it to their account as described [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Once completed, fork this repository and clone it with `git clone git@github.com:<username>/Course-GenomeMapper`.
+Participants should first create a [GitHub](https://github.com/signup) account. As usage of password on CLI is deprecated, they will also need to create a SSH key and add it to their account as described [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Once completed, fork this repository and clone it with:
+
+```bash
+git clone git@github.com:<username>/Course-GenomeMapper
+```
 
 In addition, participants need to get through the following tutorials:
   - [C++](http://www.cplusplus.com/doc/tutorial/)
