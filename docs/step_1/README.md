@@ -8,40 +8,40 @@ The first version of the mapper can be tested on an Oxford Nanopore Technologies
 
 Sample mapper runs after the setup step is completed, can be seen below:
 
-*Input:*
+**Input:**
 ```bash
 <color>_mapper GCF_000005845.2_ASM584v2_genomic.fna MAP006-1_2D_pass.fasta
 ```
-*Output:*
+**Output:**
 ```bash
 <basic statistics of reference>
 <basic statistics of fragment file>
 ```
 
-*Input:*
+**Input:**
 ```bash
 <color>_mapper GCF_000005845.2_ASM584v2_genomic.fna MAP006-1_2D_pass.fasta MAP006-2_2D_pass.fasta
 ```
-*Output:*
+**Output:**
 ```bash
 <statistics of reference>
 <statistics of both fragment files together>
 ```
 
-*Input:*
+**Input:**
 ```bash
 <color>_mapper -h
 ```
-*Output:*
+**Output:**
 ```bash
 <message describing how to run the tool with supported arguments>
 ```
 
-*Input:*
+**Input:**
 ```bash
 <color>_mapper --version
 ```
-*Output:*
+**Output:**
 ```bash
 v0.1.0
 ```
