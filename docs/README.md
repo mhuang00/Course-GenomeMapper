@@ -30,10 +30,10 @@ Participants will also need to implement a library that finds overlaps between s
 
 The final step is to combine the two libraries from preceding steps into a single executable, with convenient command line parameters, and enable multithreading.
 
-### Step 5 - Evaluation
+### Step 5 - [Evaluation](step_5/README.md)
 
 Once everything is working properly, the participants will compile a table consisting of accuracy, execution time and memory consumption on several real data sets, and compare the results with the original implementation and with other participants.
 
-### (Optional) Step 6 - Optimization
+### (Optional) Step 6 - [Optimization](step_6/README.md)
 
 For the eager participant only, go through few optimization techniques in order to decrease memory and time requirements.
