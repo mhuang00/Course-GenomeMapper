@@ -1,7 +1,7 @@
 # Mapping third-generation sequencing data to a reference genome
 
 <p align="middle">
-  <img src="docs/logo/lbcb.png" width="400" />
+  <img src="logo/lbcb.png" width="400" />
 </p>
 
 New advances in genome sequencing technologies have increased the usability of obtained fragments due to the manifold increase of their length. The only drawback is the decreased accuracy, but the continuous improvements will eventually reach error levels that are negligible. Finding the origin and per nucleotide relationship of a sequenced read and a reference genome has various vital use cases in bioinformatics, and is usually based on heuristic short substring matching followed by exact alignment via dynamic programming. The combination of increased length and error rate led to development of new algorithms, one of which will be presented and implemented during this course.
@@ -10,11 +10,11 @@ The main goal of this course is for participants to individually code the whole 
 
 ## Outline
 
-### Step 0 - [Preliminaries](docs/step_0/README.md)
+### Step 0 - [Preliminaries](step_0/README.md)
 
 Participants need to create a GitHub account, fork this repository, and get through several provided tutorials before going forward.
 
-### Step 1 - [Setup](docs/step_1/README.md)
+### Step 1 - [Setup](step_1/README.md)
 
 Once the repository copy is established, the next step is to create a simple program which has command line options, is compiled with CMake, integrates (or implement) a file parser for sequencing data, has support for unit tests, and uses continuous integration through GitHub Actions.
 
