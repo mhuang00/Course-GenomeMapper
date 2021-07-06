@@ -26,7 +26,7 @@ The first bigger task is to implement a pairwise sequence alignment library, wit
 
 Participants will also need to implement a library that finds overlaps between sequences based on substring matching, in which the sequence sketch consist of minimizers. For a given set of sequences, it will sample their minimizers, create a lookup table, provide a querying procedure with frequency filtering, and chain the found minimizer matches into overlaps.
 
-### Step 4 - Mapper
+### Step 4 - [Mapper](step_4/README.md)
 
 The final step is to combine the two libraries from preceding steps into a single executable, with convenient command line parameters, and enable multithreading.
 
